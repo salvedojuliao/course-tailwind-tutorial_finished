@@ -1,0 +1,1 @@
+# Precisa ver como usar esse aqruivo como compilar ele(tailwind.config)
