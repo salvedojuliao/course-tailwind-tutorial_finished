@@ -4,9 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../../dist/output.css" rel="stylesheet">
-  <title>Curso gratuito TailwindCSS</title>
+  <title>Componente Card</title>
 </head>
-<body class="h-screen bg-gray-400 dark:bg-gray-800">
+<body class="bg-gray-100 dark:bg-gray-800">
+  
+ <div class="container mx-auto px-4 py-8">
+    <h6 class="font-bold mb-2 dark:text-gray-50">Componente Card</h6>
+
+    <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden">
+
+      <div class="bg-gray-100 w-full p-4 dark:bg-gray-900 border-b border-gray-200 dark:border-gray-500"> <!-- Tem como usar classe negativa-->
+          <h4 class="font-bold dark:text-gray-50">Topo</h4>
+      </div>
+
+      <div class="p-4 dark:text-gray-50 dark:bg-gray-700">
+        Lorem ipsum dolor sit amet consectetur adipisicing sit amet consectetur adipisicing.
+      </div>
+
+      <div class="w-full bg-gray-50 dark:text-gray-50 dark:bg-gray-900 p-3 border-t border-gray-100 rounded-b"> <!-- Tem como usar classe negativa-->
+        Rodapé
+      </div>
+
+    </div>
+
+ </div>
   
 </body>
 </html>
