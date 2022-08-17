@@ -12,7 +12,7 @@
   
   <!--Header-->
     <div>
-      <div class="container mx-auto px-4 h-24 flex items-center">
+      <div class="container max-w-5xl mx-auto px-4 h-24 flex items-center">
         <div class="font-black">
           Logo
         </div>
@@ -31,7 +31,7 @@
 
    <!--Banner-->
     <div style="background: url('./img/beach.jpg'); height: 450px; background-position: center; background-size: cover; background-attachment: fixed; background-repeat: no-repeat;">
-      <div class="container mx-auto px-4 h-full flex items-center justify-center">
+      <div class="container max-w-5xl mx-auto px-4 h-full flex items-center justify-center">
           <div>
             <div class="text-center">
               <h1 class="text-gray-100 text-3xl mb-1">Aonde você quer ir?</h1>
@@ -39,14 +39,14 @@
             </div>
 
             <div class="mt-7">
-              <form class="space-x-4">
+              <form class="grid grid-cols-2 lg:grid-cols-3 gap-4">
                 <select class="bg-gray-50 px-3 py-2 border border-gray-300 rouded text-gray-500">
                   <option value="">Escolha o estado</option>
                 </select>
                 <select class="bg-gray-50 px-3 py-2 border border-gray-300 rouded text-gray-500">
                   <option value="">Escolha a cidade</option>
                 </select class="bg-gray-50 px-3 py-2 border border-gray-300 rouded text-gray-500">
-                <button class="text-yellow-900 bg-yellow-500 font-medium px-3 py-2 rounded inline-flex items-center">
+                <button class="text-yellow-900 bg-yellow-500 font-medium px-3 py-2 rounded inline-flex items-center col-span-2 justify-center lg:col-span-1">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                   </svg>
@@ -66,9 +66,9 @@
 
     <!-- Featured resort -->
     <div>
-      <div class="container mx-auto px-4 py-10">
-        <div class="flex">
-          <div class="pr-10">
+      <div class="container max-w-5xl mx-auto px-4 py-10">
+        <div class="flex flex-col-reverse lg:flex-row">
+          <div class="lg:pr-10">
             <div class="text-sm text-gray-400 font-medium">RESORT EM DESTAQUE</div>
             <div class="text-2xl">Ecoresort Praia do Forte Bahia</div>
             <div class="text-sm text-gray-400 font-medium mt-2">Hotel qualidade 5 estrelas</div>
@@ -87,7 +87,7 @@
           </div>
 
           </div>
-          <div class="flex-shrink-0 ml-auto">
+          <div class="flex-shrink-0 lg:ml-auto mb:5 lg:mb-0">
            <img src="./img/featured-img-palm-tree.jpg" alt="palm-tree" width="450px">
           </div>
         </div>
@@ -99,16 +99,16 @@
 
     <!-- Resorts grid -->
     <div>
-      <div class="container mx-auto px-4">
+      <div class="container max-w-5xl mx-auto px-4">
         <h3 class="text-2xl text-gray-500 font-semibold text-center mb-8">Conheça mais resort</h3>
   
-        <div class="grid grid-cols-4 grid-rows-2 gap-4">
-          <div class="relative col-span-2 row-span-2 rouded-lg overflow-hidden">
+        <div class="md:grid md:grid-cols-4 md:grid-rows-2 md:gap-6 space-y-6 md:space-y-0">
+          <div class="relative md:col-span-2 md:row-span-2 rouded-lg overflow-hidden">
             <img src="./img/hotels_imgs/hotel-1.jpg" alt="hotel-1" class="w-full h-full object-cover rounded-lg">
             <div class="absolute bottom-0 pl-4 pb-4 text-white font-bold">Beach Park Resourt</div>
           </div>
           
-          <div class="relative overflow-hidden col-span-2 h-48">
+          <div class="relative overflow-hidden md:col-span-2 md:h-40">
             <img src="./img/hotels_imgs/hotel-2.jpg" alt="hotel-2" class="h-full w-full object-cover rounded-lg">
             <div class="absolute bottom-0 pl-4 pb-4 text-white font-bold">Beach Park Resourt</div>
           </div>
@@ -133,15 +133,15 @@
 
     <!-- Abre form search -->
     <div class="py-20">
-      <div class="container mx-auto px-4 flex justify-center">
-        <form class="space-x-4">
+      <div class="container max-w-5xl mx-auto px-4 flex justify-center">
+        <form class="grid grid-cols-2 lg:grid-cols-3 gap-4">
           <select class="bg-gray-50 px-3 py-2 border border-gray-300 rouded text-gray-500">
             <option value="">Escolha o estado</option>
           </select>
           <select class="bg-gray-50 px-3 py-2 border border-gray-300 rouded text-gray-500">
             <option value="">Escolha a cidade</option>
           </select class="bg-gray-50 px-3 py-2 border border-gray-300 rouded text-gray-500">
-          <button class="text-yellow-900 bg-yellow-500 font-medium px-3 py-2 rounded inline-flex items-center">
+          <button class="text-yellow-900 bg-yellow-500 font-medium px-3 py-2 rounded inline-flex items-center col-span-2 justify-center lg:col-span-1">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
@@ -155,7 +155,7 @@
 
     <!-- Abre Footer -->
       <div class="border-t bordaer-gray-200">
-        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+        <div class="container max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
           <div class="font-black text-gray-400 ">
             Logo
           </div>
