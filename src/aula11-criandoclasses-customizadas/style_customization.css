@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 
-/* @layer utilities{ */ /* Não funcionou usando isso */
+@layer components{ 
     .laravue{
         @apply bg-brand-200 font-bold;
     }
-/* } */
+} 
 
 
